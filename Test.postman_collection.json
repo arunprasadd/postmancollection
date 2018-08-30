@@ -1,0 +1,32 @@
+{
+	"info": {
+		"name": "Test",
+		"_postman_id": "414a24b3-a7ce-9cb9-d22e-e5948f049b6a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://api.publicapis.org/entries",
+					"protocol": "https",
+					"host": [
+						"api",
+						"publicapis",
+						"org"
+					],
+					"path": [
+						"entries"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
